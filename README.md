@@ -2,10 +2,26 @@
 Live data app for Bengaluru weather, AQI, and reservoirs.
 
 
+💻 How to Run Locally
+Clone this repository.
+Install dependencies: pip install -r requirements.txt
+Create a .streamlit/secrets.toml file and add your MySQL password:
 
+[general]
+password = "your_app_password"
+mysql_password = "your_database_password"
 
+**Secure Login**
+https://login.png/
 
+**Live Dashboard & Reservoir Risk**
+https://dashboard.png/
 
+**Driver Mode**
+https://driver_mode.png/
+
+**Data Center Watch**
+https://map.png/
 
 
 
